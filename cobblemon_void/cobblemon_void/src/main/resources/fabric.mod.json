@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_void",
+  "version": "${version}",
+  "name": "Cobblemon Void",
+  "description": "Adds the Cosmic and Light types (and more to come) to Cobblemon.",
+  "environment": "*",
+  "mixins": ["cobblemon_void.mixins.json"],
+  "depends": {
+    "minecraft": "~1.21.1",
+    "fabricloader": ">=0.16.0",
+    "cobblemon": ">=1.8.2",
+    "mega_showdown": "*"
+  }
+}
