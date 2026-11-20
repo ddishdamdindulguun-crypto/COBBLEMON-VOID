@@ -1,0 +1,1 @@
+damageTaken: {Bug: 0, Dark: 1, Dragon: 0, Electric: 0, Fairy: 2, Fighting: 2, Fire: 0, Flying: 0, Ghost: 2, Grass: 1, Ground: 0, Ice: 1, Normal: 0, Poison: 0, Psychic: 0, Rock: 0, Steel: 0, Stellar: 0, Water: 1, Cosmic: 2, Light: 0}
