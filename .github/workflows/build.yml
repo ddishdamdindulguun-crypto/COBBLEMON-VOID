@@ -8,8 +8,10 @@ jobs:
       - uses: actions/setup-java@v4
         with: { distribution: temurin, java-version: 21 }
       - uses: gradle/actions/setup-gradle@v4
-        with: { gradle-version: 8.12 }
-      - run: gradle build --no-daemon
+        with:
+          gradle-version: 8.12
+          cache-disabled: true
+      - run: gradle build --no-daemon --refresh-dependencies
       - uses: actions/upload-artifact@v4
         with:
           name: cobblemon_void-jar
