@@ -21,8 +21,8 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
     // Cobblemon and Mega Showdown from Modrinth's maven (version = Modrinth "version number")
-    modImplementation "maven.modrinth:cobblemon:${project.cobblemon_version}"
-    modImplementation "maven.modrinth:cobblemon-mega-showdown:${project.msd_version}"
+    modImplementation "maven.modrinth:cobblemon:${project.cobblemon_version=gBW3vLC7}"
+    modImplementation "maven.modrinth:cobblemon-mega-showdown:${project.msd_version=TrpwiTL5}"
 }
 
 tasks.withType(JavaCompile).configureEach { options.release = 21 }
