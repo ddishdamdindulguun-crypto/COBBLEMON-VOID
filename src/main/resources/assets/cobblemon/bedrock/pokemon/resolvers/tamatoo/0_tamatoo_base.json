@@ -1,0 +1,13 @@
+{
+  "species": "cobblemon:tamatoo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:bulbasaur",
+      "model": "cobblemon:bulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/bulbasaur/bulbasaur.png",
+      "layers": []
+    }
+  ]
+}

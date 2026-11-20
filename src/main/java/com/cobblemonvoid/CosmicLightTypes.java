@@ -13,6 +13,12 @@ import static com.cobblemon.mod.common.util.MiscUtilsKt.cobblemonResource;
 public final class CosmicLightTypes {
     public static ElementalType COSMIC, LIGHT;
 
+    public static boolean isCustom(ElementalType t) {
+        if (t == null) return false;
+        String id = t.getShowdownId().toLowerCase();
+        return id.equals("cosmic") || id.equals("light");
+    }
+
     public static void register() {
         COSMIC = create("Cosmic", "cobblemon.type.cosmic", 0x5B3FA0, "cosmic", "Max Starfall", "Astral Burst");
         LIGHT  = create("Light",  "cobblemon.type.light",  0xFFE066, "light",  "Max Radiance", "Radiant Flash");

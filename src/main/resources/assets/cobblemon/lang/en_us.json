@@ -1,1 +1,10 @@
-{"cobblemon.type.cosmic":"Cosmic","cobblemon.type.light":"Light"}
+{
+  "cobblemon.type.cosmic": "Cosmic",
+  "cobblemon.type.light": "Light",
+  "cobblemon.species.tamatoo.name": "Tamatoo",
+  "cobblemon.species.tamatoo.desc": "A small grass creature that stores sunlight in its shell.",
+  "cobblemon.species.flaret.name": "Flaret",
+  "cobblemon.species.flaret.desc": "Its tail flares up whenever it gets excited.",
+  "cobblemon.species.cubble.name": "Cubble",
+  "cobblemon.species.cubble.desc": "It blows bubbles that float it gently along."
+}
