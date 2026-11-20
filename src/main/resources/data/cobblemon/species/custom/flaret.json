@@ -52,5 +52,19 @@
     "amount": 1,
     "entries": []
   },
-  "evolutions": []
+  "evolutions": [
+    {
+      "id": "flaret_warrpen",
+      "variant": "level_up",
+      "result": "warrpen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ]
 }

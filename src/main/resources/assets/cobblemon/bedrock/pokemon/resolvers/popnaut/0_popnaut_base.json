@@ -1,0 +1,13 @@
+{
+  "species": "cobblemon:popnaut",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:squirtle",
+      "model": "cobblemon:squirtle.geo",
+      "texture": "cobblemon:textures/pokemon/squirtle/squirtle.png",
+      "layers": []
+    }
+  ]
+}
