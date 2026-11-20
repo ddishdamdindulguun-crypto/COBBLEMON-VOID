@@ -6,5 +6,11 @@
   "cobblemon.species.flaret.name": "Flaret",
   "cobblemon.species.flaret.desc": "Its tail flares up whenever it gets excited.",
   "cobblemon.species.cubble.name": "Cubble",
-  "cobblemon.species.cubble.desc": "It blows bubbles that float it gently along."
+  "cobblemon.species.cubble.desc": "It blows bubbles that float it gently along.",
+  "cobblemon.species.terradua.name": "Terradua",
+  "cobblemon.species.terradua.desc": "Rock plates have grown over its back.",
+  "cobblemon.species.warrpen.name": "Warrpen",
+  "cobblemon.species.warrpen.desc": "Star-like sparks trail from its mane.",
+  "cobblemon.species.popnaut.name": "Popnaut",
+  "cobblemon.species.popnaut.desc": "Its sealed bubble helmet lets it dive without limit."
 }

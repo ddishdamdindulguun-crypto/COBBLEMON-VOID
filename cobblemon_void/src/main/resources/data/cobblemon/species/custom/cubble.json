@@ -53,5 +53,19 @@
     "amount": 1,
     "entries": []
   },
-  "evolutions": []
+  "evolutions": [
+    {
+      "id": "cubble_popnaut",
+      "variant": "level_up",
+      "result": "popnaut",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ]
 }

@@ -53,5 +53,19 @@
     "amount": 1,
     "entries": []
   },
-  "evolutions": []
+  "evolutions": [
+    {
+      "id": "tamatoo_terradua",
+      "variant": "level_up",
+      "result": "terradua",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ]
 }

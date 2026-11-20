@@ -1,0 +1,61 @@
+{
+  "implemented": true,
+  "name": "Terradua",
+  "nationalPokedexNumber": 20002,
+  "primaryType": "grass",
+  "secondaryType": "rock",
+  "maleRatio": 0.875,
+  "height": 12,
+  "weight": 290,
+  "baseStats": {
+    "hp": 62,
+    "attack": 72,
+    "defence": 72,
+    "special_attack": 74,
+    "special_defence": 68,
+    "speed": 57
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "baseFriendship": 70,
+  "abilities": [
+    "overgrow",
+    "h:rockhead"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:vinewhip",
+    "1:rockthrow",
+    "16:razorleaf",
+    "20:rockslide",
+    "26:synthesis",
+    "32:gigadrain",
+    "36:powerwhip"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.terradua.desc"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "evolutions": [],
+  "preEvolution": "tamatoo"
+}
