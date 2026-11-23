@@ -4,10 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:squirtle",
-      "model": "cobblemon:squirtle.geo",
-      "texture": "cobblemon:textures/pokemon/0007_squirtle/squirtle.png",
+      "poser": "cobblemon:voidplaceholder",
+      "model": "cobblemon:voidplaceholder.geo",
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder.png",
       "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder_shiny.png"
     }
   ]
 }

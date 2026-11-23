@@ -4,28 +4,34 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:bulbasaur",
-      "model": "cobblemon:bulbasaur.geo",
-      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur.png",
+      "poser": "cobblemon:voidplaceholder",
+      "model": "cobblemon:voidplaceholder.geo",
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder.png",
       "layers": []
     },
     {
       "aspects": [
         "attack"
       ],
-      "poser": "cobblemon:bulbasaur",
-      "model": "cobblemon:bulbasaur.geo",
-      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur.png",
+      "poser": "cobblemon:voidplaceholder",
+      "model": "cobblemon:voidplaceholder.geo",
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder.png",
       "layers": []
     },
     {
       "aspects": [
         "speed"
       ],
-      "poser": "cobblemon:bulbasaur",
-      "model": "cobblemon:bulbasaur.geo",
-      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur.png",
+      "poser": "cobblemon:voidplaceholder",
+      "model": "cobblemon:voidplaceholder.geo",
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder.png",
       "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder_shiny.png"
     }
   ]
 }
