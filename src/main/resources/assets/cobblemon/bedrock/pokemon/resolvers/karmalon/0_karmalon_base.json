@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:karmalon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:bulbasaur",
+      "model": "cobblemon:bulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "attack"
+      ],
+      "poser": "cobblemon:bulbasaur",
+      "model": "cobblemon:bulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "speed"
+      ],
+      "poser": "cobblemon:bulbasaur",
+      "model": "cobblemon:bulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur.png",
+      "layers": []
+    }
+  ]
+}

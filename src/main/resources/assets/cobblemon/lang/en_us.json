@@ -36,5 +36,7 @@
   "cobblemon.ability.grimending": "Grim Ending",
   "cobblemon.ability.grimending.desc": "Summons random weather and takes on its type alongside Ghost.",
   "cobblemon.ability.leechingcompanions": "Leeching Companions",
-  "cobblemon.ability.leechingcompanions.desc": "Heals from poison damage instead of taking it."
+  "cobblemon.ability.leechingcompanions.desc": "Heals from poison damage instead of taking it.",
+  "cobblemon.species.karmalon.name": "Karmalon",
+  "cobblemon.species.karmalon.desc": "A jungle ambusher that hides in plain sight and reveals its true form only when provoked."
 }

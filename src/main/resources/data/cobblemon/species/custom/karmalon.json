@@ -1,0 +1,116 @@
+{
+  "implemented": true,
+  "name": "Karmalon",
+  "nationalPokedexNumber": 29999,
+  "primaryType": "dark",
+  "secondaryType": "grass",
+  "maleRatio": 0.5,
+  "height": 15,
+  "weight": 450,
+  "baseStats": {
+    "hp": 85,
+    "attack": 75,
+    "defence": 120,
+    "special_attack": 40,
+    "special_defence": 90,
+    "speed": 70
+  },
+  "evYield": {
+    "defence": 2,
+    "special_defence": 1,
+    "hp": 0,
+    "attack": 0,
+    "special_attack": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 160,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "eggGroups": [
+    "field",
+    "grass"
+  ],
+  "baseFriendship": 50,
+  "abilities": [
+    "roughskin"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "5:vinewhip",
+    "9:bite",
+    "13:razorleaf",
+    "17:leechseed",
+    "21:crunch",
+    "25:synthesis",
+    "29:seedbomb",
+    "33:knockoff",
+    "37:gigadrain",
+    "41:powerwhip",
+    "45:darkpulse"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.karmalon.desc"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Attack",
+      "aspects": [
+        "attack"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 115,
+        "defence": 80,
+        "special_attack": 80,
+        "special_defence": 75,
+        "speed": 60
+      },
+      "abilities": [
+        "moxie"
+      ],
+      "evYield": {
+        "attack": 2,
+        "hp": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      }
+    },
+    {
+      "name": "Speed",
+      "aspects": [
+        "speed"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 80,
+        "defence": 60,
+        "special_attack": 75,
+        "special_defence": 95,
+        "speed": 100
+      },
+      "abilities": [
+        "speedboost"
+      ],
+      "evYield": {
+        "speed": 2,
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0
+      }
+    }
+  ]
+}
