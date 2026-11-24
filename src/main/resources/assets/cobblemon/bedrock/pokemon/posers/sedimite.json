@@ -16,7 +16,6 @@
     "standing": {
       "poseTypes": [
         "STAND",
-        "WALK",
         "SLEEP",
         "NONE",
         "PORTRAIT",
@@ -24,6 +23,14 @@
       ],
       "animations": [
         "q.bedrock('sedimite','ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.bedrock('sedimite','ground_walk')"
       ]
     }
   },
