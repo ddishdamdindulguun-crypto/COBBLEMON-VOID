@@ -70,5 +70,15 @@
     "amount": 1,
     "entries": []
   },
-  "evolutions": []
+  "evolutions": [
+    {
+      "id": "sedimite_sedilock",
+      "variant": "item_interact",
+      "result": "sedilock",
+      "requiredContext": "cobblemon_void:cosmic_stone",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": []
+    }
+  ]
 }
