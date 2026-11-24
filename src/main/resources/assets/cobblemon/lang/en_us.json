@@ -38,5 +38,8 @@
   "cobblemon.ability.leechingcompanions": "Leeching Companions",
   "cobblemon.ability.leechingcompanions.desc": "Heals from poison damage instead of taking it.",
   "cobblemon.species.karmalon.name": "Karmalon",
-  "cobblemon.species.karmalon.desc": "A jungle ambusher that hides in plain sight and reveals its true form only when provoked."
+  "cobblemon.species.karmalon.desc": "A jungle ambusher that hides in plain sight and reveals its true form only when provoked.",
+  "cobblemon.species.galeliadea.name": "Galeliadea",
+  "cobblemon.species.sedimite.name": "Sedimite",
+  "cobblemon.species.sedimite.desc": "Sedimite, a fakemon from Pokédex Fillers."
 }

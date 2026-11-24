@@ -1,0 +1,3 @@
+The placeholder model 'voidplaceholder' (geo file, bone layout) and its textures are derived from the 'substitute' model and textures in Cobblemon 1.8.4, by the Cobblemon team.
+The textures were recolored (red / blue). Cobblemon's assets are licensed under Creative Commons Attribution-NonCommercial; verify the exact terms in the Cobblemon assets repository before publishing.
+This project is non-commercial and free. Credit: Cobblemon team (https://cobblemon.com).

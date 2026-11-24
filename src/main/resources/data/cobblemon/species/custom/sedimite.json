@@ -1,0 +1,74 @@
+{
+  "implemented": true,
+  "name": "Sedimite",
+  "nationalPokedexNumber": 1279,
+  "primaryType": "rock",
+  "maleRatio": 0.5,
+  "height": 16,
+  "weight": 560,
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 65,
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral",
+    "human_like"
+  ],
+  "baseFriendship": 50,
+  "abilities": [
+    "sturdy",
+    "h:adaptability"
+  ],
+  "moves": [
+    "1:pound",
+    "1:harden",
+    "1:growl",
+    "1:helpinghand",
+    "1:rockthrow",
+    "5:sharpen",
+    "10:hiddenpower",
+    "15:playnice",
+    "20:ancientpower",
+    "25:rocktomb",
+    "30:metronome",
+    "35:roleplay",
+    "40:secretpower",
+    "45:charm",
+    "50:selfdestruct",
+    "55:rockwrecker",
+    "tm:workup",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:bulldoze",
+    "tm:rest",
+    "egg:encore",
+    "egg:tickle"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.sedimite.desc"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "evolutions": []
+}

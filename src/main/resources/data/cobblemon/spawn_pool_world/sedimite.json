@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sedimite-1",
+      "pokemon": "sedimite",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}
