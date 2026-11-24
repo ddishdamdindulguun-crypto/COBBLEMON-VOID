@@ -26,5 +26,6 @@
         "q.bedrock('sedimite','ground_idle')"
       ]
     }
-  }
+  },
+  "cry": "q.bedrock_stateful('sedimite','cry')"
 }

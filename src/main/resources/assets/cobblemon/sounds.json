@@ -1,0 +1,8 @@
+{
+  "pokemon.sedimite.cry": {
+    "sounds": [
+      "cobblemon:pokemon/sedimite/sedimite_cry",
+      "cobblemon:pokemon/sedimite/sedimite_cry2"
+    ]
+  }
+}

@@ -44,6 +44,41 @@
           }
         }
       }
+    },
+    "animation.sedimite.cry": {
+      "loop": false,
+      "animation_length": 1.3,
+      "sound_effects": {
+        "0.0": {
+          "effect": "pokemon.sedimite.cry"
+        }
+      },
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.3": [
+              -8,
+              0,
+              0
+            ],
+            "0.9": [
+              -8,
+              0,
+              0
+            ],
+            "1.3": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
     }
   }
 }
