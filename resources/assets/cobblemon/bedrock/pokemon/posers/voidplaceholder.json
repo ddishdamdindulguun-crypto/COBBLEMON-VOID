@@ -1,0 +1,30 @@
+{
+  "rootBone": "substitute",
+  "portraitScale": 1.6,
+  "portraitTranslation": [
+    0,
+    -0.8,
+    0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0,
+    0.2,
+    0
+  ],
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "SLEEP",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.bedrock('voidplaceholder','ground_idle')"
+      ]
+    }
+  }
+}

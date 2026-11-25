@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:karmalon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:voidplaceholder",
+      "model": "cobblemon:voidplaceholder.geo",
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "attack"
+      ],
+      "poser": "cobblemon:voidplaceholder",
+      "model": "cobblemon:voidplaceholder.geo",
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "speed"
+      ],
+      "poser": "cobblemon:voidplaceholder",
+      "model": "cobblemon:voidplaceholder.geo",
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "choice",
+  "keys": [
+    "karmalon_form"
+  ],
+  "default": "tank",
+  "choices": [
+    "tank",
+    "attack",
+    "speed"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}"
+}

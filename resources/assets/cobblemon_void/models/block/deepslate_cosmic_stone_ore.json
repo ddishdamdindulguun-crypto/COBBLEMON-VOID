@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cobblemon_void:block/deepslate_cosmic_stone_ore"
+  }
+}

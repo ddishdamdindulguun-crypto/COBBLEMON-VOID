@@ -1,0 +1,27 @@
+{
+  damageTaken: {
+    par: 3,
+    Bug: 0,
+    Dark: 0,
+    Dragon: 0,
+    Electric: 2,
+    Fairy: 0,
+    Fighting: 0,
+    Fire: 0,
+    Flying: 2,
+    Ghost: 0,
+    Grass: 0,
+    Ground: 1,
+    Ice: 0,
+    Normal: 0,
+    Poison: 0,
+    Psychic: 0,
+    Rock: 0,
+    Steel: 2,
+    Stellar: 0,
+    Water: 0, Cosmic: 2,
+    Light: 0
+  },
+  HPivs: {spa: 30},
+  HPdvs: {atk: 14},
+}

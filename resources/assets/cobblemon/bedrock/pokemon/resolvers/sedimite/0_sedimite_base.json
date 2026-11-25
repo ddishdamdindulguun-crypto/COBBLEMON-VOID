@@ -1,0 +1,13 @@
+{
+  "species": "cobblemon:sedimite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sedimite",
+      "model": "cobblemon:sedimite.geo",
+      "texture": "cobblemon:textures/pokemon/sedimite/sedimite.png",
+      "layers": []
+    }
+  ]
+}

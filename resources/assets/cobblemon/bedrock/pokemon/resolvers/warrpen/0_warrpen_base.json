@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:warrpen",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:voidplaceholder",
+      "model": "cobblemon:voidplaceholder.geo",
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/voidplaceholder/voidplaceholder_shiny.png"
+    }
+  ]
+}
