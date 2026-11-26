@@ -13,6 +13,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.AmethystClusterBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -25,6 +26,8 @@ public class CobblemonVoid implements ModInitializer {
     public static Item COSMIC_STONE;
     public static Block COSMIC_STONE_ORE;
     public static Block DEEPSLATE_COSMIC_STONE_ORE;
+    public static Item COSMIC_CRYSTAL_SHARD;
+    public static Block COSMIC_CRYSTAL_CLUSTER;
 
     public static ResourceLocation id(String path) {
         return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
@@ -32,6 +35,7 @@ public class CobblemonVoid implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        CustomItems.register();
         COSMIC_STONE = Registry.register(BuiltInRegistries.ITEM, id("cosmic_stone"), new Item(new Item.Properties()));
 
         COSMIC_STONE_ORE = Registry.register(BuiltInRegistries.BLOCK, id("cosmic_stone_ore"),
@@ -44,10 +48,20 @@ public class CobblemonVoid implements ModInitializer {
         Item deepOreItem = Registry.register(BuiltInRegistries.ITEM, id("deepslate_cosmic_stone_ore"),
                 new BlockItem(DEEPSLATE_COSMIC_STONE_ORE, new Item.Properties()));
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register(e -> e.accept(COSMIC_STONE));
+        COSMIC_CRYSTAL_SHARD = Registry.register(BuiltInRegistries.ITEM, id("cosmic_crystal_shard"), new Item(new Item.Properties()));
+        COSMIC_CRYSTAL_CLUSTER = Registry.register(BuiltInRegistries.BLOCK, id("cosmic_crystal_cluster"),
+                new AmethystClusterBlock(7.0F, 3.0F, BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_CLUSTER)));
+        Item clusterItem = Registry.register(BuiltInRegistries.ITEM, id("cosmic_crystal_cluster"),
+                new BlockItem(COSMIC_CRYSTAL_CLUSTER, new Item.Properties()));
+
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register(e -> {
+            e.accept(COSMIC_STONE);
+            e.accept(COSMIC_CRYSTAL_SHARD);
+        });
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.NATURAL_BLOCKS).register(e -> {
             e.accept(oreItem);
             e.accept(deepOreItem);
+            e.accept(clusterItem);
         });
 
         // Ore generation (rare: 4 attempts per band) in Lush Caves and Dripstone Caves only; the Cosmic biome (common, 8) comes later. Two overlapping height bands, both defined in data/cobblemon_void/worldgen/placed_feature
